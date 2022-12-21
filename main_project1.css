@@ -1,0 +1,736 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+   
+
+.main_container{
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
+   
+    
+}
+
+
+
+.login_form{
+    margin-left: 20px;
+    margin-top: 50px;
+
+
+}
+
+.main_content{
+   flex: 3;
+   width: 600px;
+   height: 400px;
+  
+  
+}
+.main_img{
+    width: 600px;
+    height: 400px;
+   
+   
+}
+.login_bar{
+   flex: 2;
+   width: 400px;
+   height: 400px;
+   width: 300px;
+   height: 400px;
+   background-color: aqua;
+  
+   
+}
+.webpage_box{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(5, 5, 47);
+    margin-top: 15px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+ h3{
+   
+    font-size: small;
+    color: rgb(109, 152, 184);
+    text-align: center;
+    padding-top: 12px;
+}
+.logo_pic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 130px;
+    border: 5px rgb(5, 5, 47) solid;
+}
+.email{
+    border-bottom: 2px solid rgb(5, 5, 47)  ;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 3px;
+    height: 25px;
+}
+.password{
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(5, 5, 47)  ;
+    margin-left: 70px;
+    border-radius: 3px;
+    height: 25px;
+   
+}
+
+.login1{
+    margin-left: -3px;
+}
+.login2{
+    padding-top: 7px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+.login{
+    margin-top:15px ;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(5, 5, 47);
+    border-radius: 20px;
+    margin-left: 110px;
+}
+.login2:hover{
+    background-color:rgb(109, 152, 184) ;
+    color:  rgb(5, 5, 47);
+}
+
+.social_media{
+    margin-top: 40px;
+    margin-left: 20px;
+    justify-items: space-between;
+}
+.social_media:hover{
+    color: rgb(19, 19, 115);
+}
+.forgot h3{
+    margin-top: -30px;
+    margin-left: 170px;
+}
+.register{
+    margin-top:5px ;
+    width: 100px;
+    height: 30px;
+    border: 1px rgb(5, 5, 47) solid ;
+    border-radius: 20px;
+    margin-left: 110px; ;
+}
+.register_button:hover{
+  
+    background-color:rgb(109, 152, 184) ;
+    color:  rgb(5, 5, 47);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+   
+}
+.register_button{
+    padding-top: 7px;
+}
+
+
+
+
+
+.login_main{
+    margin-top: 120px;
+    margin-left: 200px;
+    width: 900px;
+    height: 400px;
+    background-color:rgb(5, 5, 47);
+   
+    
+}
+.welcome{
+    float: left;
+    color:white;
+    margin-left: 290px;
+    padding-top: 100px;
+    font-family: "Times New Roman", Times, serif;
+}
+.welcome_content {
+    color: white;
+    font-size: 13px;
+    margin-top: 28px;
+    margin-left: 20px;
+    
+}
+.back{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(109, 152, 184);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    float: left;
+   
+}
+.back_content{
+    color: rgb(5, 5, 47);
+    padding-top: 7px;
+   
+    
+}
+.back :hover{
+    width: 100px;
+    height: 30px;
+    background-color:white;
+    border-radius: 20px;
+    color: rgb(109, 152, 184);
+  
+   
+}
+
+
+
+
+
+.register_main{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 900px;
+    height: 400px;
+    background-color:rgb(5, 5, 47);
+    z-index: 0;
+}
+.register_form{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    float: left;
+    margin-left: 600px;
+    margin-top: -404px;
+    z-index: 3;
+    border: 1px rgb(5, 5, 47) solid ;
+    transition: 0.5s;
+}
+.register_title{
+    margin-left: 220px;
+    margin-top: 70px;
+    
+}
+.register1{
+    padding-top: 40px;
+}
+.input{
+    margin-top: 10px;
+}
+.register_input{
+    border-bottom: 2px solid rgb(5, 5, 47)  ;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 3px;
+    height: 25px;
+}
+#Next1, #Next2, #Next3{
+    margin-left: 105px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:rgb(5, 5, 47) ;
+    color:rgb(109, 152, 184) ;
+}
+#Next1:hover{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(109, 152, 184);
+    border-radius: 20px;
+    color:rgb(5, 5, 47) ;
+  
+   
+}
+#Next2:hover{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(109, 152, 184);
+    border-radius: 20px;
+    color:rgb(5, 5, 47) ;
+  
+   
+}
+#Next3:hover{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(109, 152, 184);
+    border-radius: 20px;
+    color:rgb(5, 5, 47) ;
+  
+   
+}
+#Back, #Back1, #Back2{
+    width: 100px;
+    height: 30px;
+    background-color:white;
+    border-radius: 20px;
+    color:rgb(5, 5, 47) ;
+    margin-left: 105px;
+    margin-top: 10px;
+    border: 1px rgb(5, 5, 47) solid ;
+    
+}
+#Back1:hover{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(109, 152, 184);
+    border-radius: 20px;
+    color: rgb(5, 5, 47) ;
+  
+   
+}
+#Back:hover{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(109, 152, 184);
+    border-radius: 20px;
+    color: rgb(5, 5, 47) ;
+  
+   
+}
+#Back2:hover{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(109, 152, 184);
+    border-radius: 20px;
+    color: rgb(5, 5, 47) ;
+  
+   
+}
+
+
+
+#Form1{
+    left:-450px;
+    position: relative;
+    z-index: 6;
+}
+#Form2{
+    left: 450px;
+    position: relative;
+    z-index: 9;
+    
+}
+
+
+
+@media (max-width:1200px){
+    .main_container{
+        padding: 20px 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 900px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 50px;
+       
+        
+    }
+    .main_content{
+        flex: 3;
+        width: 600px;
+        height: 400px;
+       
+       
+     }
+     .main_img{
+         width: 600px;
+         height: 400px;
+        
+        
+     }
+     .login_bar{
+        flex: 2;
+        width: 400px;
+        height: 400px;
+        width: 300px;
+        height: 400px;
+        background-color: aqua;
+       
+     }     
+    .logo_pic{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-top: 35px;
+            margin-left: 90px;
+            border: 5px rgb(5, 5, 47) solid;
+        }
+        .type{
+            margin-right: 35px;
+        }
+    .email{
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-top: 20px;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+        }
+    .password{
+            margin-top: 10px;
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+           
+        }
+        .login1{
+            margin-left: -2px;
+        }
+      
+    
+        .login2{
+            padding-top: 7px;
+            width: 100px;
+            height: 30px;
+            border-radius: 20px;
+        }
+        .login{
+            margin-top:15px ;
+            width: 100px;
+            height: 30px;
+            background-color: rgb(5, 5, 47);
+            border-radius: 20px;
+            margin-left: 70px;
+        }
+        .register{
+            margin-top:5px ;
+            width: 100px;
+            height: 30px;
+            border: 1px rgb(5, 5, 47) solid ;
+            border-radius: 20px;
+            margin-left: 70px; ;
+        }
+        .forgot h3{
+            margin-top: -30px;
+            margin-left: 130px;
+        }
+ }
+
+
+
+ @media (max-width:991px){
+    .main_container{
+        padding: 20px 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 900px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 50px;
+       
+        
+    }
+    .main_content{
+        flex: 3;
+        width: 600px;
+        height: 400px;
+       
+       
+     }
+     .main_img{
+         width: 600px;
+         height: 400px;
+        
+        
+     }
+     .login_bar{
+        flex: 2;
+        width: 400px;
+        height: 400px;
+        width: 300px;
+        height: 400px;
+        background-color: aqua;
+       
+     }     
+    .logo_pic{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-top: 35px;
+            margin-left: 90px;
+            border: 5px rgb(5, 5, 47) solid;
+        }
+        .type{
+            margin-right: 35px;
+        }
+    .email{
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-top: 20px;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+        }
+    .password{
+            margin-top: 10px;
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+           
+        }
+        .login1{
+            margin-left: -2px;
+        }
+      
+    
+        .login2{
+            padding-top: 7px;
+            width: 100px;
+            height: 30px;
+            border-radius: 20px;
+        }
+        .login{
+            margin-top:15px ;
+            width: 100px;
+            height: 30px;
+            background-color: rgb(5, 5, 47);
+            border-radius: 20px;
+            margin-left: 70px;
+        }
+        .register{
+            margin-top:5px ;
+            width: 100px;
+            height: 30px;
+            border: 1px rgb(5, 5, 47) solid ;
+            border-radius: 20px;
+            margin-left: 70px; ;
+        }
+        .forgot h3{
+            margin-top: -30px;
+            margin-left: 130px;
+        }
+ }
+
+
+
+ @media (max-width:761px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    .main_container{
+        padding: 20px 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 900px;
+        height: 600px;
+        margin-left: -10px;
+        margin-top: 50px;
+       
+        
+    }
+    .main_content{
+        flex: 3;
+        width: 500px;
+        height: 400px;
+       
+       
+     }
+     .main_img{
+         width: 600px;
+         height: 400px;
+        
+        
+     }
+     .login_bar{
+        flex: 2;
+        width: 400px;
+        height: 400px;
+        width: 300px;
+        height: 400px;
+        background-color: aqua;
+     }
+    .logo_pic{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-top: 35px;
+            margin-left: 10px;
+            border: 5px rgb(5, 5, 47) solid;
+        }
+        .type{
+            margin-right: 35px;
+        }
+    .email{
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-top: 20px;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+        }
+    .password{
+            margin-top: 10px;
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+           
+        }
+        .login1{
+            margin-left: -2px;
+        }
+      
+    
+        .login2{
+            padding-top: 7px;
+            width: 100px;
+            height: 30px;
+            border-radius: 20px;
+        }
+        .login{
+            margin-top:15px ;
+            width: 100px;
+            height: 30px;
+            background-color: rgb(5, 5, 47);
+            border-radius: 20px;
+            margin-left: 70px;
+        }
+        .register{
+            margin-top:5px ;
+            width: 100px;
+            height: 30px;
+            border: 1px rgb(5, 5, 47) solid ;
+            border-radius: 20px;
+            margin-left: 70px; ;
+        }
+        .forgot h3{
+            margin-top: -30px;
+            margin-left: 130px;
+        }
+ }
+
+@media (max-width:400px){
+    body{
+        
+        background-image: url("main_img.jpg");
+        background-color: rgb(2, 2, 47);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: -0px;
+        width: 40px;
+        
+    }
+    .login_bar{
+        background: none;
+    }
+    .main_container{
+      
+        width: 100%;
+        height: 100%;
+        margin-left: 150px;
+
+}
+    .main_content{
+    justify-content: center;
+    align-items: center;
+    display: contents;
+  
+}
+    .webpage_box{
+        width: 150px;
+        height: 40px;
+        background-color: rgb(5, 5, 47);
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+     
+  
+    .main_content img{
+        
+     display: none;
+
+      
+    }
+    .logo_pic{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-top: 35px;
+            margin-left: 90px;
+            border: 5px rgb(5, 5, 47) solid;
+        }
+    .type{
+            margin-right: 35px;
+        }
+    .email{
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-top: 20px;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+        }
+    .password{
+            margin-top: 10px;
+            border-bottom: 2px solid rgb(5, 5, 47)  ;
+            margin-left: 35px;
+            border-radius: 3px;
+            height: 25px;
+           
+        }
+    .login1{
+            margin-left: 30px;
+        }
+      
+    
+    .login2{
+            padding-top: 7px;
+            width: 100px;
+            height: 30px;
+            border-radius: 20px;
+        }
+    .login{
+            margin-top:15px ;
+            width: 100px;
+            height: 30px;
+            background-color: rgb(5, 5, 47);
+            border-radius: 20px;
+            margin-left: 70px;
+        }
+    .register{
+            margin-top:5px ;
+            width: 100px;
+            height: 30px;
+            border: 1px rgb(5, 5, 47) solid ;
+            border-radius: 20px;
+            margin-left: 70px; ;
+        }
+    .forgot h3{
+            margin-top: -30px;
+            margin-left: 130px;
+           
+    }
+
+
+    
+ }
